@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+  rel="stylesheet"
+/>
+<link rel="
+" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Login Page</title>
+    <style>
+         @media screen and (max-width: 767px) {
+            /* Styles for mobile devices */
+          
+            .card {
+                display: block; /* or any other valid display value like inline, inline-block, etc. */
+    justify-content: initial; /* Reset justify-content */
+    align-items: initial;  
+
+            }
+
+            .card-body {
+                display: block;
+            }
+          
+           
+
+           
+        }
+    </style>
+  
+</head>
+<body style="background-color: black;">
+    <div class="card" style=" max-width: 1800px; padding: 50px; margin: auto; top: 150px;">
+        <div class="card-body">
+          <div class="d-flex justify-content-around">
+            <div class="align-self-center">
+                <form style="text-align: center;">
+                    <!-- Name input -->
+                    <h1 style="font-size: 100px; font-family: sans-serif; font-weight: bold;">WELCOME</h1>
+                    <p>We are glad to see you back with us</p>
+                    <div class="form-outline mb-4">
+                      <input type="text" id="form5Example1" class="form-control" />
+                      <label class="form-label" for="form5Example1">Name</label>
+                    </div>
+                  
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input type="email" id="form5Example2" class="form-control" />
+                      <label class="form-label" for="form5Example2">Email address</label>
+                    </div>
+                  
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-4 p-3">Login in</button>
+
+                    <!-- Checkbox -->
+                    <div class="form-check d-flex justify-content-center mb-4">
+                      <input class="form-check-input me-2" type="checkbox" value="" id="form5Example3" checked />
+                      <label class="form-check-label" for="form5Example3">
+                        I have read and agree to the terms
+                      </label>
+                    </div>
+
+                    
+                    <button type="submit" class="btn  btn-block mb-4 p-3" style="border: 2px solid black;">
+                       <img src="images/google.svg" class="px-3" alt="">
+                       login with <span style="font-weight: bolder;">google</span>
+                    </button>
+                    <button type="submit" class="btn  btn-block mb-4 p-3" style="border: 2px solid black;">
+                       <img src="images/facebook.svg" class="px-3" alt="">
+                       login with <span style="font-weight: bolder;">facebook</span>
+                    </button>                  
+                  </form>
+            </div>
+            <div>
+                <img src="images/img.svg" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+</body>
+</html>
